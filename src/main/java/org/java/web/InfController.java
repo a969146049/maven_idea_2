@@ -25,5 +25,9 @@ public class InfController {
         model.addAttribute("list",list);
         return "/show";
     }
+    public String add(){
+        System.out.println("");
+        return  "";
+    }
 
 }
